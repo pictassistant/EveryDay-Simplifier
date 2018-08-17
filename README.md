@@ -47,3 +47,17 @@
 - The Actions on Google Code is hosted on Firebase Cloud Fucntions and has been deployed __only on one device__ as shown in the video
 - It requires entire one day to deploy Actions on Google on Alpha Testing mode.Kindly evaluate accordingly as it can run on developer's   Google Account only.
 - Reference - https://developers.google.com/actions/dialogflow/submit
+
+## Database Schema
+
+- #### Lecture Collection
+
+![screenshot 8](https://user-images.githubusercontent.com/42034989/44271557-4adc3000-a1ef-11e8-9692-29a4644f2995.png)
+
+- #### Event Collection
+
+![screenshot 9](https://user-images.githubusercontent.com/42034989/44271746-ca69ff00-a1ef-11e8-8c6e-dc64ea7dee6a.png)
+
+- #### User Collection
+
+![screenshot 10](https://user-images.githubusercontent.com/42034989/44271749-cdfd8600-a1ef-11e8-836b-ebb5a9da2cae.png)
