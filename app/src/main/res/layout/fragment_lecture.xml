@@ -6,127 +6,133 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".LectureFragment">
 
-    <RelativeLayout
+
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="20dp"
-        >
+        android:layout_height="wrap_content">
 
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="2dp"
-            app:contentPaddingBottom="24dp"
-            app:contentPaddingTop="24dp"
-            app:contentPaddingLeft="16dp"
-            app:contentPaddingRight="16dp"
-            app:cardBackgroundColor="#00BCD4"
-            >
+        <TextView
+            android:id="@+id/textView_subjectname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#E91E63"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="90dp"
+            android:text="DBMS"
+            android:textAlignment="center"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorwhite"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="lecture"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_subjectname" />
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+        <TextView
+            android:id="@+id/textView_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorwhite"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="A1-311"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_type" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:text="SubjectName"
-                        android:textSize="30sp"
-                        android:textColor="@color/colorwhite"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"
-                        android:background="#673AB7"
-                        android:textAlignment="center"
-                        android:gravity="center"
-                        />
+        <TextView
+            android:id="@+id/textView_starttime"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorwhite"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="08:00"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView_instructorname"
+            app:layout_constraintEnd_toStartOf="@+id/textView_endtime"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_location"
+            app:layout_constraintVertical_bias="1.0" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="lecture/lab"
-                        android:textSize="30sp"
-                        android:textColor="@color/colorwhite"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"
-                        android:background="#E91E63"
-                        android:textAlignment="center"
-                        android:gravity="center"
-                        />
+        <TextView
+            android:id="@+id/textView_endtime"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorwhite"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="09:00"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_location" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:text="Location"
-                        android:textSize="30sp"
-                        android:textColor="@color/colorwhite"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"
-                        android:background="#00796B"
-                        android:textAlignment="center"
-                        android:gravity="center"
-                        />
+        <TextView
+            android:id="@+id/textView_instructorname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorwhite"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Mr.Bagade"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_endtime" />
 
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp">
 
-                        <TextView
-                            android:id="@+id/one"
-                            android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="0800"
-                            android:textSize="30sp"
-                            android:textColor="@color/colorwhite"
-                            android:textStyle="bold"
-                            android:fontFamily="sans-serif"
-                            android:background="#FF5722"
-                            android:textAlignment="center"
-                            android:gravity="center"
-                            />
+    </android.support.constraint.ConstraintLayout>
 
-                        <TextView
-                            android:id="@+id/two"
-                            android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="0900"
-                            android:textSize="30sp"
-                            android:textColor="@color/colorwhite"
-                            android:textStyle="bold"
-                            android:fontFamily="sans-serif"
-                            android:background="#00BCD4"
-                            android:textAlignment="center"
-                            android:gravity="center"
-                            />
-
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:text="Instructor"
-                        android:textSize="30sp"
-                        android:textColor="@color/colorwhite"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"
-                        android:background="#E91E63"
-                        android:textAlignment="center"
-                        android:gravity="center"
-                        />
-
-                </LinearLayout>
-            </RelativeLayout>
-
-        </android.support.v7.widget.CardView>
-
-    </RelativeLayout>
 </FrameLayout>
