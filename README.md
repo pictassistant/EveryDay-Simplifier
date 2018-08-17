@@ -40,9 +40,9 @@
 ## Note for Testers & Evaluators
 
 - The _Next Lecture_ feature was tested after college hours in the video, therefore it shows __College Done for today__ .
-- The Screenshot for the same during college hours is attached below, it shows the accurate lecture name and location.
+- The [Screenshot](https://image.ibb.co/dqzixe/Whats_App_Image_2018_08_17_at_07_03_15.jpg) for the same during college hours is attached  , it shows the accurate lecture name and location.
 - The _My Attendance_ feature works correctly. But the ETH Server was down for the entire day. Proof in video.
 - Kindly look at assistant_server code where __Web Scraping is done to retrive attendance__ .
 - The Actions on Google Code is hosted on Firebase Cloud Fucntions and has been deployed __only on one device__ as shown in the video
-- It requires entire one day to deploy Actions on Google on Alpha Testing mode.Kindly evaluate accordingly as it can run on developer's Google Account only.
+- It requires entire one day to deploy Actions on Google on Alpha Testing mode.Kindly evaluate accordingly as it can run on developer's   Google Account only.
 - Reference - https://developers.google.com/actions/dialogflow/submit
