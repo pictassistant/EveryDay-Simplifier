@@ -30,6 +30,10 @@
   -  > Add Lecture / Lab Details
   -  > Add Canteen Lunch/ Dinner Details
 
+## Video Walkthrough of Android Application
+
+> https://youtu.be/y9WbK7BSkcg
+
 ## Technology Stack
 
 - Actions on Google
