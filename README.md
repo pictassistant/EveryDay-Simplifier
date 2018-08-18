@@ -67,3 +67,8 @@
 - #### User Collection
 
 ![screenshot 10](https://user-images.githubusercontent.com/42034989/44271749-cdfd8600-a1ef-11e8-836b-ebb5a9da2cae.png)
+
+## Future Scope
+
+ - Add Typeform Support for User Interaction
+ - Add Extra features
