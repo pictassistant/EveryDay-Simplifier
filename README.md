@@ -50,7 +50,9 @@
 - Kindly look at assistant_server code where __Web Scraping is done to retrive attendance__ .
 - The Actions on Google Code is hosted on Firebase Cloud Fucntions and has been deployed __only on one device__ as shown in the video
 - It requires entire one day to deploy Actions on Google on Alpha Testing mode.Kindly evaluate accordingly as it can run on developer's   Google Account only.
-- Reference - https://developers.google.com/actions/dialogflow/submit
+> Reference - https://developers.google.com/actions/dialogflow/submit
+- The _My attendance_ code is written to return Student's Attendance in **Table Card**. However, the feature is on developer's preview and is not available on the Assistant Demo yet. 
+> Reference - https://developers.google.com/actions/assistant/responses#table_card
 
 ## Database Schema
 
